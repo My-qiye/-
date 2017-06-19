@@ -1,0 +1,422 @@
+
+/*第一个下拉框的样式开始*/
+#head .head-xlk{
+	display:none;
+	width:100%;
+	height:260px;
+	background:#eeeeff;
+	position:absolute;
+	z-index:999;
+	top:43px;
+	left:-5px;
+	box-shadow:0 1px 10px 0px #666 inset;
+}
+#head .head-foot .h-f-top>li:nth-child(1):hover+.head-xlk{
+	display:block;
+}
+#head .head-xlk:hover{
+	display:block;
+}
+#head .head-xlk div{
+	width:23.9%;
+	height:260px;
+	position:relative;
+	float:left;	
+}
+#head .h-f-top .head-xlk ul li a:hover{
+	text-decoration:underline;
+	color:#337ab7;
+}
+#head .head-xlk div:hover{
+	background:#ccc;
+}
+#head .head-xlk div:hover ul li:nth-of-type(5){
+	background:#dd0011;
+	width:130px;
+}
+#head .head-xlk div:hover>ul li:nth-of-type(5) a{
+	color:#fff;
+	text-decoration:none;
+}
+#head .head-xlk .head-xlk-1{
+	margin-left:4%;
+}
+#head .head-xlk div ul{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:30px;
+	left:120px;
+}
+#head .head-xlk .head-xlk-1:before{
+	content:'';
+	display:block;
+	width:70px;
+	height:130px;
+	background:url(picture/nav_mate9_cn2.png) no-repeat;
+	position:absolute;
+	left:40px;
+	top:45px;
+}
+#head .h-f-top .head-xlk ul li{
+	width:145px;
+	height:30px;
+	text-align:left;
+	line-height:30px;
+	/*text-indent:1em;*/
+}
+
+#head .head-xlk ul>li:nth-of-type(5){
+	margin-top:10px;
+}
+#head .head-xlk a{
+	color:#323232;
+}
+#head .head-xlk .head-xlk-2:before{
+	content:'';
+	display:block;
+	width:70px;
+	height:130px;
+	background:url(picture/nav_ebg.png) no-repeat;
+	position:absolute;
+	top:45px;
+	left:40px;
+}
+#head .head-xlk .head-xlk-3:before{
+	content:'';
+	display:block;
+	width:70px;
+	height:130px;
+	background:url(picture/nav_cbg9-21.png) no-repeat;
+	position:absolute;
+	top:45px;
+	left:45px;
+}
+#head .head-xlk .head-xlk-4{
+	border-left:1px solid #999;
+}
+#head .head-xlk .head-xlk-4 ul li:nth-of-type(5){
+	margin:0;
+}
+#head .head-xlk .head-xlk-4 ul{
+	top:30px;
+	left:20px;
+}
+
+#head .head-xlk .head-xlk-4:hover li:nth-of-type(5){
+	background:none;
+}
+#head .head-xlk .head-xlk-4:hover li:nth-of-type(5) a{
+	text-decoration:underline;
+	color:#337ab7;
+}
+/*第一个下拉框样式结束*/
+
+
+
+
+/*第二个下拉框样式开始*/
+#head .head-foot .h-f-top .head-1{
+	display:none;
+	width:100%;
+	height:320px;
+	background:#eeeeff;
+	position:absolute;
+	top:43px;
+	left:-5px;
+	border-top:2px solid rgba(225,225,255,0.8);
+}
+
+
+#head .head-foot .h-f-top>li:nth-of-type(2):hover+.head-1{
+	display:block;
+
+}
+#head .head-foot .h-f-top .head-1:hover{
+	display:block;
+}
+#head .head-foot .h-f-top .head-1>a>li{
+	width:15%;
+	height:320px;
+	float:left;
+	margin-left:1.5%;
+	background:#eeeeff;
+}
+#head .head-foot .h-f-top .head-1>a>li:hover{
+	background:#CDCDF1;
+}
+#head .head-foot .h-f-top .head-1>a>li:hover>span{
+	background:#e22835;
+	color:#fff;
+}
+#head .head-foot .h-f-top .head-1>a>li:hover>p{
+	color:#006ad0;
+}
+#head .head-foot .h-f-top .head-1>a>li>h3{
+	position:relative;
+	top:25px;
+	left:50px;
+	color:#e22835;
+}
+#head .head-foot .h-f-top .head-1>a>li>img{
+	position:relative;
+	top:40px;
+	left:35px;
+}
+#head .head-foot .h-f-top .head-1>a>li>p{
+	position:relative;
+	top:50px;
+	left:40px;
+	color:#323232;
+}
+#head .head-foot .h-f-top .head-1>a>li>span{
+	position:relative;
+	top:80px;
+	left:45px;
+	color:#323232;
+}
+/*第二个下拉框样式结束*/
+
+
+
+
+
+/*第三个下拉框样式开始*/
+#head .head-foot .h-f-top>li:nth-of-type(3):hover+.h-d3{
+	display:block;
+}
+#head .head-foot .h-f-top .h-d3:hover{
+	display:block;
+}
+#head .head-foot .h-f-top .h-d3{
+	display:none;
+	width:100%;
+	height:350px;
+	background:#eeeeff;
+	position:absolute;
+	top:43px;
+	left:-5px;
+	border-top:2px solid rgba(225,225,255,0.8);
+}
+#head .head-foot .h-f-top .h-d3>div{
+	width:19%;
+	height:350px;
+	float:left;
+}
+#head .head-foot .h-f-top .h-d3>div:hover{
+	background:#CDCDF1;
+}
+#head .head-foot .h-f-top .h-d3>div:hover>p{
+	background:#e22835;
+}
+#head .head-foot .h-f-top .h-d3>div:hover>p>a{
+	color:#fff;
+}
+#head .head-foot .h-f-top .h-d3 .h-d3-1{
+	margin-left:5%;
+}
+#head .head-foot .h-f-top .h-d3>div>h3{
+	margin:30px 0 20px 10px;
+	font-weight:500;
+	color:#e22835;
+}
+#head .head-foot .h-f-top .h-d3>div>ul>li{
+	margin:6px 10px;
+}
+#head .head-foot .h-f-top .h-d3>div>ul>li>a:hover{
+	color:#006ad0;
+	text-decoration:underline;
+}
+#head .head-foot .h-f-top .h-d3>div>p{
+	margin:20px 0 0 5px;
+	width:90px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	
+}
+#head .head-foot .h-f-top .h-d3>div>p>a{
+	color:#323232;
+}
+/*第三个下拉框的样式结束*/
+
+
+
+
+
+/*第四个下拉框的样式开始*/
+#head .head-foot .h-f-top>li:nth-of-type(4):hover+.h-d4{
+	display:block;
+}
+#head .head-foot .h-f-top .h-d4:hover{
+	display:block;
+}
+#head .head-foot .h-f-top .h-d4{
+	display:none;
+	width:100%;
+	height:330px;
+	background:#eeeeff;
+	position:absolute;
+	top:43px;
+	left:-5px;
+	border-top:2px solid rgba(225,225,255,0.8);
+}
+#head .head-foot .h-f-top .h-d4>div{
+	width:20%;
+	height:330px;
+	float:left;
+	position:relative;
+}
+#head .head-foot .h-f-top .h-d4>div:hover{
+	background:#CDCDF1;
+}
+#head .head-foot .h-f-top .h-d4>div:hover>p{
+	background:#e22835;
+}
+#head .head-foot .h-f-top .h-d4>div:hover>p>a{
+	color:#fff;
+}
+#head .head-foot .h-f-top .h-d4>div:first-child{
+	margin-left:5%;
+}
+#head .head-foot .h-f-top .h-d4>div>h3{
+	font-weight:500;
+	margin:30px 0 20px 10px;
+	color:#e22835;
+}
+#head .head-foot .h-f-top .h-d4>div>ul>li{
+	margin:6px 10px;
+}
+#head .head-foot .h-f-top .h-d4>div>ul>li>a:hover{
+	color:#006ad0;
+	text-decoration:underline;
+}
+#head .head-foot .h-f-top .h-d4>div>p{
+	margin:20px 0 0 5px;
+	width:90px;
+	height:30px;
+	text-align:center;
+	line-height:30px;	
+}
+#head .head-foot .h-f-top .h-d4>div>p>a{
+	color:#323232;
+}
+#head .head-foot .h-f-top .h-d4>div:nth-of-type(4){
+	width:320px;
+	border-left:1px solid #999;
+}
+#head .head-foot .h-f-top .h-d4>div>a>img{
+	margin:10px;
+}
+#head .head-foot .h-f-top .h-d4>div>span{
+	width:250px;
+	margin-left:10px;
+	color:#333;
+	display:block;
+}
+/*第四个下拉框的样式结束*/
+
+
+
+
+/*第五个下拉框样式开始*/
+#head .head-foot .h-f-top>li:nth-of-type(5):hover+.h-d5{
+	display:block;
+}
+#head .head-foot .h-f-top .h-d5:hover{
+	display:block;
+}
+#head .head-foot .h-f-top .h-d5{
+	display:none;
+	width:100%;
+	height:330px;
+	background:#eeeeff;
+	position:absolute;
+	top:43px;
+	left:-5px;
+	border-top:2px solid rgba(225,225,255,0.8);
+}
+#head .head-foot .h-f-top .h-d5>div{
+	width:15%;
+	height:330px;
+	float:left;
+	position:relative;
+}
+#head .head-foot .h-f-top .h-d5>div:hover{
+	background:#CDCDF1;
+}
+#head .head-foot .h-f-top .h-d5>div:hover>p{
+	background:#e22835;
+}
+#head .head-foot .h-f-top .h-d5>div:hover>p>a{
+	color:#fff;
+}
+#head .head-foot .h-f-top .h-d5>div:first-child{
+	margin-left:5%;
+}
+#head .head-foot .h-f-top .h-d5>div>h3{
+	font-weight:500;
+	margin:30px 0 20px 10px;
+	color:#e22835;
+}
+#head .head-foot .h-f-top .h-d5>div>ul>li{
+	margin:6px 10px;
+}
+#head .head-foot .h-f-top .h-d5>div>ul>li>a:hover{
+	color:#006ad0;
+	text-decoration:underline;
+}
+#head .head-foot .h-f-top .h-d5>div>p{
+	margin:20px 0 0 5px;
+	width:90px;
+	height:30px;
+	text-align:center;
+	line-height:30px;	
+}
+#head .head-foot .h-f-top .h-d5>div>p>a{
+	color:#323232;
+}
+#head .head-foot .h-f-top .h-d5>div:nth-of-type(1){
+	width:20%;
+}
+#head .head-foot .h-f-top .h-d5>div:nth-of-type(5){
+	border-left:1px solid #999;
+	width:18%;
+}
+#head .head-foot .h-f-top .h-d5>div:nth-of-type(5)>ul>li{
+	margin-left:50px;
+}
+#head .head-foot .h-f-top .h-d5>div:nth-of-type(5)>ul{
+	margin-top:30px;
+}
+#head .head-foot .h-f-top .h-d5>div:nth-of-type(5)>ul>li:nth-of-type(1):before{
+	content:'';
+	width:20px;
+	height:25px;
+	display:block;
+	left:20px;
+	position:absolute;
+	background:url(images/hw1_sprite.png) no-repeat 0px -35px;
+}
+#head .head-foot .h-f-top .h-d5>div:nth-of-type(5)>ul>li:nth-of-type(2):before{
+	content:'';
+	width:20px;
+	height:25px;
+	display:block;
+	left:20px;
+	position:absolute;
+	background:url(images/hw1_sprite.png) no-repeat -25px -37px;
+}
+#head .head-foot .h-f-top .h-d5>div:nth-of-type(5)>ul>li:nth-of-type(3):before{
+	content:'';
+	width:20px;
+	height:25px;
+	display:block;
+	left:20px;
+	position:absolute;
+	background:url(images/hw1_sprite.png) no-repeat -47px -39px;
+}
+
+/*第五个下拉框样式结束*/
+
+/*头部样式结束*/

@@ -1,0 +1,231 @@
+
+/*主体内容样式的开始*/
+#main{
+	width:100%;
+	height:2580px;
+
+}
+
+/*主体内容中间的大盒子(五张图片的)*/
+#main .main-zhong{
+	width:98%;
+	height:1020px;
+	position:relative;
+	/*background:#384;*/
+	margin:20px auto;
+}
+
+
+/*
+.main-zhong>div:hover:after{
+	content:'';
+	display:block;
+	position:absolute;
+	z-index:99;
+	width:100%;
+	height:720px;
+	background:rgba(0,0,0,0.5);
+	cursor:pointer;
+}
+*/
+/*大盒子的公共样式*/
+#main .main-zhong a>img{
+	position:absolute;
+	transition:all 0.5s ease-out 0s;
+	z-index:-2;
+	width:108%;
+	/*height:100%;*/
+}
+#main .main-zhong>div:hover{
+	background:-webkit-linear-gradient(left,rgba(0,0,0,0.2),rgba(0,0,0,0.4) );
+	cursor:pointer;
+	
+}
+#main .main-zhong>div:hover img{
+	transform:translateX(-2.5%);
+
+}
+#main .main-zhong>div:hover div{
+	transform:translateY(-20px);
+}
+#main .main-zhong>div:hover div>p>a{
+	display:block;
+}
+#main .main-zhong>div>div{
+	position:absolute;
+	transition:all 0.4s ease-out 0s;
+	z-index:1;
+	top:86%;
+	left:5%;
+}
+#main .main-zhong>div>div>h3{
+	font-size:30px;
+
+}
+#main .main-zhong>div>div>h3>a{
+	color:#fff;
+}
+#main .main-zhong>div>div>p>a{
+	color:#fff;
+	margin-top:20px;
+	display:none;
+}
+#main .main-zhong>div>div>p>a:hover{
+	display:block;
+}
+
+	/*公共样式结束*/
+
+#main .main-zhong .m-z-1{
+	width:49%;
+	display:flex;	
+	height:660px;
+	overflow:hidden;
+	position:relative;
+	float:left;
+
+	
+}
+
+#main .main-zhong .m-z-2{
+	width:49%;
+	height:320px;
+	overflow:hidden;
+	position:relative;
+	float:right;
+}
+#main .main-zhong .m-z-2>div{
+	top:70%;
+}
+
+
+#main .main-zhong .m-z-3{
+	width:49%;
+	height:320px;
+	overflow:hidden;	
+	margin-top:20px;
+	position:relative;
+	float:right;
+}
+
+#main .main-zhong .m-z-3>div{
+	top:60%;
+}
+
+#main .main-zhong .m-z-3>div>p>a{
+	width:400px;
+}
+
+
+
+#main .main-zhong .m-z-4{
+	width:49%;
+	height:320px;
+	overflow:hidden;
+	margin-top:20px;
+	position:relative;
+	float:left;
+}
+#main .main-zhong .m-z-4>div{
+	top:60%;
+}
+#main .main-zhong .m-z-4>div>p>a{
+	width:445px;
+}
+
+
+#main .main-zhong .m-z-5{
+	width:49%;
+	height:320px;
+	float:right;
+	position:relative;
+	overflow:hidden;
+	margin-top:20px;
+}
+#main .main-zhong .m-z-5>div{
+	top:60%;
+}
+#main .main-zhong .m-z-5>div>p>a{
+	width:445px;
+}
+
+/*主体内容的大盒子样式结束*/
+
+
+/*主体内容的第四个大盒子*/
+#main .main-foot{
+	width:100%;
+	height:340px;
+	background:#f5f5f5;
+	position:relative;
+}
+#main .main-foot .m-foot-m{
+	width:88%;
+	height:340px;
+	margin:5px auto;
+	
+}
+#main .main-foot .m-foot-m>div{
+	float:left;
+}
+#main .main-foot .m-foot-m>div a{
+	color:#333;
+}
+#main .main-foot .m-foot-m>div a:hover{
+	color:#337ab7;
+	text-decoration:underline;
+}
+
+#main .main-foot .m-foot-m>div:nth-child(1){
+	width:32%;
+	height:340px;
+	
+}
+#main .main-foot .m-foot-m>div:nth-child(1)>h2{
+	margin:20px 0 0 10px;
+	font-weight:500;
+}
+
+#main .main-foot .m-foot-m>div:nth-child(1)>ul>li{
+	margin:15px 0 0 10px;
+}
+#main .main-foot .m-foot-m>div:nth-child(1)>ul>li>span{
+	font-size:13px;
+	color:#999;
+}
+
+#main .main-foot .m-foot-m>div:nth-child(2){
+	width:64%;
+	height:68px;
+	margin-left:4%;
+}
+#main .main-foot .m-foot-m>div:nth-child(2)>h2{
+	margin-top:20px;
+	font-weight:500;
+}
+
+
+#main .main-foot .m-foot-m>div:nth-child(3){
+	width:28%;
+	height:270px;
+	margin:0 4%;
+}
+#main .main-foot .m-foot-m>div>h3{
+	font-size:18px;
+	font-weight:500;
+	margin:15px 0;
+}
+#main .main-foot .m-foot-m>div>p{
+	line-height:28px;
+	color:#333;
+}
+#main .main-foot .m-foot-m>div>img{
+	width:340px;
+	height:149px;
+}
+
+#main .main-foot .m-foot-m>div:nth-child(4){
+	width:28%;
+	height:270px;
+}
+/*主体内容结束*/

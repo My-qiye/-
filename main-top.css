@@ -1,0 +1,117 @@
+
+	/*轮播图的样式*/
+#main .main-top{
+	width:100%;
+	height:560px;
+	position:relative;
+	z-index:-1;
+	/*-webkit-transform-style:preserve-3d;*/
+	animation:box 25s linear 1s infinite alternate;
+
+}
+#main .main-top .img{
+	/*overflow:hidden;*/
+	z-index:-1;
+	cursor:pointer;
+	/*width:400%;*/
+
+}
+#main .main-top .img>img{
+	height:100%;
+	width:100%;
+	position:absolute;
+	float:left;
+	cursor:pointer;
+	/*animation:box 25s linear 1s infinite alternate;*/
+
+
+	/*animation:bei 2s linear infinite alternate;*/
+
+}
+/*#main .main-top:hover{
+	animation-play-state:paused;
+}*/
+#main .main-top .img>img:nth-child(1){
+	transform:translateX(0);
+	
+}
+#main .main-top .img>img:nth-child(2){
+	transform:translateX(100%);
+	overflow:hidden;
+}
+#main .main-top .img>img:nth-child(3){
+	transform:translateX(200%);
+}
+#main .main-top .img>img:nth-child(4){
+	transform:translateX(300%);
+}
+
+@keyframes box{
+	0%{ transform:translateX(-0%);}
+	
+	100%{ transform:translateX(-302%);}
+}
+/*@keyframes bei{
+	0%{box-shadow:0 0 10px 5px black;}
+	100%{box-shadow:0 0 20px 10px black;}
+}*/
+
+
+		/*轮播图结束*/
+
+
+		/*主体内容的第三个盒子样式开始(动画)*/
+#main .main-three{
+	width:95%;
+	height:540px;
+	position:relative;
+	margin:15px auto;
+	background:url(picture/timg2.jpg);
+	-webkit-perspective:2500px;
+	cursor:pointer;
+	
+
+	
+}
+#main .main-three>.m-t-1{
+	width:60%;	
+	position:absolute;
+	/*display:flex;*/
+	top:20%;
+	left:20%;
+	/*border:1px solid red;*/
+	-webkit-transform-style:preserve-3d;
+	animation:col 25s linear 0s infinite;
+	
+}
+@keyframes col{ 
+			0%{transform:rotateY(0deg);}
+			100%{transform:rotateY(360deg);}
+		 }
+#main .main-three>.m-t-1>img{
+	width:300px;
+	height:280px;
+	position:absolute;
+	border-radius:20px;
+}
+#main .main-three>.m-t-1>img:nth-child(1){
+	transform:rotateY(60deg) translateZ(300px) ;
+}
+#main .main-three>.m-t-1>img:nth-child(2){
+	transform:rotateY(120deg) translateZ(300px) ;
+}
+#main .main-three>.m-t-1>img:nth-child(3){
+	transform:rotateY(180deg) translateZ(300px);	
+}
+#main .main-three>.m-t-1>img:nth-child(4){
+	transform:rotateY(240deg)translateZ(300px);
+}
+#main .main-three>.m-t-1>img:nth-child(5){
+	transform:rotateY(300deg)translateZ(300px);
+}
+#main .main-three>.m-t-1>img:nth-child(6){
+	transform:rotateY(360deg) translateZ(300px);
+}
+
+
+/*第三个盒子样式结束*/
